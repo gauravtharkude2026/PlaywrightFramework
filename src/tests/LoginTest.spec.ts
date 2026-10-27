@@ -1,7 +1,7 @@
 import { test, expect } from '../fixtures/TestFixture';
 import { LoginPage } from '../pages/LoginPage';
 import { config } from '../utils/ConfigReader';
-
+// GitHub Actions Test
 test('Login Test', async ({ page }) => {
 
     await page.goto(config.url!);
