@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { deleteUser } from '../api/UserApi';
 
-test('Delete User API', async () => {
+test('@api Delete User API', async () => {
 
     const response = await deleteUser();
 

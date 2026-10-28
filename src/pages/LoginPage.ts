@@ -1,5 +1,5 @@
 import { BasePage } from './BasePage';
-
+"CI/CD Demo Trigger"
 export class LoginPage extends BasePage {
 
     async login(username:string,password:string) {

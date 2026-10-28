@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { getUsers } from '../api/UserApi';
 
-test('Get Users API', async () => {
+test('@api Get Users API', async () => {
 
     const response = await getUsers();
 
